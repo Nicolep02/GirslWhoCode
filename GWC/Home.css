@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@500;700&family=Ysabeau:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya&family=Quicksand&family=Roboto:wght@500;700&family=Ysabeau:wght@300&display=swap');
+
+*{
+    
+}
+
+img {
+    object-fit: cover;
+    }
+
+h1, a{
+  margin: 0;
+  padding: 0;
+  color: #702963;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+section{
+  align-items: left;
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 20px;
+  padding-bottom: 5px;
+  box-shadow: 2px 2px 4px #032222
+}
+
+h1 {
+  font-family: 'Arya';
+  font-size: 2.5em;
+  padding: 8px 0;
+  font-weight: 300;
+}
+
+h2 {
+    font-family: 'Arya';
+    display: inline-block;
+    font-size: 2em;
+    color: #0c7474;
+    padding: 3px 0;
+    padding-left: 50px;
+    font-weight: 300;
+    margin: auto;
+  }
+
+h3 {
+    color: #0c7474;
+    margin-left: 50px;
+    font-size: 23;
+    font-family: 'Arya';
+}
+
+p {
+  font-family: 'Ysabeau';
+  font-size: 1.19em;
+  color:#3a2c75;
+  font-weight: 80;
+  padding-left: 80px;
+  padding-right:50px;
+  text-decoration: none
+}
+
+.body{
+  text-align: left;
+}
+
+.firstSection{
+  float: left;
+  width: 50%; float: left;
+}
+
+.club{
+  padding-bottom: 320px;
+  padding-left: 5px;
+}
+
+.header {
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 60px;
+  text-align: center;
+  background: linear-gradient(to right, rgb(242, 242, 219), #e0f4f1, #f2e6f1);
+}
+
+.headerbutton {
+  font-size: 17px;
+  display: inline-block;
+  border: 1px solid rgb(11, 81, 66);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 'none'; 
+}
+
+.headerbutton:hover {
+  background-color: white;
+  color: #33cccc;
+}
+
