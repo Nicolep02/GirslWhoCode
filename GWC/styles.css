@@ -99,3 +99,95 @@ p {
   background-color: white;
   color: #33cccc;
 }
+
+/* navigation */
+nav{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0 3em;
+  border-bottom: 2px solid #4d947d;
+  z-index: 999;
+}
+nav a{
+  color: #000000;
+  text-decoration: none;
+}
+nav img{
+  width: 20%;
+  float: left;
+  margin: 10px 0;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  margin-top: 1.5%;
+  font-weight: 200;
+  font-size: medium;
+  width: 80%;
+  justify-content: flex-end;
+}
+
+nav ul li{
+  margin: 0.5em;
+}
+
+/* NAVIGATION MEDIA QUERY */
+/*small*/
+@media screen and (min-width: 200px) and (max-width: 480px){
+  .logoGWC{
+      padding: .25em;
+      width:0%;
+      align-content: center;  
+  }
+  nav{
+    font-size: 0.5em;
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  nav ul{
+    margin: 0;
+    padding: .1em;
+    flex-direction: column;
+  }
+  nav ul li{
+    border-radius: 1em;
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+}
+/*medium*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+.logoGWC{
+  padding: .6em;
+  width:0%;
+  align-content: center;  
+  overflow: hidden;
+}
+nav{
+  font-size: 1.0em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+nav ul li{
+  /* display: inline-block; */
+  list-style-type: none;
+  padding: .36em 0.3em;
+}
+}
+/* end of navigation */
