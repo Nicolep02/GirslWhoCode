@@ -47,14 +47,14 @@ h2 {
 
 h3 {
     color: #0c7474;
-    margin-left: 50px;
+    margin-left: 60px;
     font-size: 23;
     font-family: 'Arya';
 }
 
 p {
   font-family: 'Ysabeau';
-  font-size: 1.19em;
+  font-size: 1.3em;
   color:#3a2c75;
   font-weight: 80;
   padding-left: 80px;
@@ -71,9 +71,15 @@ p {
   width: 50%; float: left;
 }
 
-.club{
-  padding-bottom: 320px;
-  padding-left: 5px;
+mem img
+{
+  padding-top: 20px;
+  width: 300px;  
+  height: auto; 
+}
+
+.emphasis{
+  font-size:23px;
 }
 
 .header {
@@ -85,7 +91,7 @@ p {
 }
 
 .headerbutton {
-  font-size: 17px;
+  font-size: 20px;
   display: inline-block;
   border: 1px solid rgb(11, 81, 66);
   padding: 10px 20px;
